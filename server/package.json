@@ -1,0 +1,18 @@
+{
+  "name": "stratara-server",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Stratara (Project Atlas) API server",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "node --watch src/index.js",
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.5.0"
+  }
+}
